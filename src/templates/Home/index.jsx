@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 
 import './styles.css';
-
+import React from 'react';
 import { Posts } from '../../components/Posts';
 import { loadPosts } from '../../utils/load-posts';
 import { Button } from '../../components/Button';
